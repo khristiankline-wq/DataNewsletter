@@ -1,0 +1,9 @@
+{
+  "trained_at": "2026-01-13T22:07:44.524510Z",
+  "mae_holdout": 39.873471966013746,
+  "r2_holdout": 0.6912732563537143,
+  "default_success_threshold_attendees": 77,
+  "classifier_enabled": true,
+  "n_events": 3363,
+  "regression_target": "log1p(attendees)"
+}
