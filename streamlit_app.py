@@ -7,7 +7,7 @@ import pandas as pd
 import streamlit as st
 from datetime import datetime
 
-DATA_DIR = os.environ.get("GPS_DATA_DIR", "/mnt/data")
+DATA_DIR = os.environ.get("GPS_DATA_DIR", ".")
 REG_PATH = os.path.join(DATA_DIR, "gps_event_success_regressor.joblib")
 CLF_PATH = os.path.join(DATA_DIR, "gps_event_success_classifier.joblib")
 META_PATH = os.path.join(DATA_DIR, "gps_event_success_meta.json")
